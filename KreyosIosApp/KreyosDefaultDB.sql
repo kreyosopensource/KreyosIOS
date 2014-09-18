@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS "KreyosBadgesData";
+CREATE TABLE "KreyosBadgesData" ("ID" INTEGER PRIMARY KEY  NOT NULL  DEFAULT (0) ,"Name" TEXT,"Description" TEXT,"Snippet" TEXT,"Category" INTEGER DEFAULT (null) ,"SubCategory" TEXT,"ImagePath" TEXT);
+INSERT INTO "KreyosBadgesData" VALUES(0,'First Steps','Exercise for at least one hour everyday for three days.','Congratulations! You''ve worked out for three days straight! Wanna go for five?',1,'3 days','daily_steps5k');
+INSERT INTO "KreyosBadgesData" VALUES(1,'Marathoner','Run for 26.2 miles in one day','Congratulations! You''ve just completed a Marathon with your Meteor!',2,'Marathon (26.2 Miles in 1 Day)','half_marathon');
+INSERT INTO "KreyosBadgesData" VALUES(2,'Burst of Energy','Run/Walk 1,000 steps in one hour','You''ve successfully completed this goal! Congrats!',3,'Walk 1k steps in 1 hour','walk_10hrs');
+DROP TABLE IF EXISTS "KreyosUserBadges";
+CREATE TABLE KreyosUserBadges (KreyosUserbadgeID INTEGER PRIMARY KEY, KreyosUserID NUMERIC, BadgeType NUMERIC, CompletionDate NUMERIC);
+DROP TABLE IF EXISTS "Kreyos_Current_Repeatable";
+CREATE TABLE Kreyos_Current_Repeatable (CurrentCount NUMERIC, Endate NUMERIC, StartDate NUMERIC, BadgeType NUMERIC, KreyosUSerID NUMERIC);
+DROP TABLE IF EXISTS "Kreyos_UserProfile";
+CREATE TABLE Kreyos_UserProfile (Name TEXT, Gender NUMERIC, KreyosUserID INTEGER PRIMARY KEY, User_Email TEXT, Password TEXT, Weight NUMERIC, Height NUMERIC, Bday NUMERIC, Kreyos_Statistics_ID NUMERIC, FBID TEXT, TWITTERID TEXT, GoogleAccount TEXT);
+DROP TABLE IF EXISTS "Kreyos_UserStatistics";
+CREATE TABLE "Kreyos_UserStatistics" (KreyosUserID NUMERIC, TotalLoginCount BLOB, TotalSync NUMERIC, TotalMiles NUMERIC, TotalSteps NUMERIC, TotalCalories NUMERIC, ShareFBCounter NUMERIC);
+DROP TABLE IF EXISTS "Kreyos_User_Activities";
+CREATE TABLE Kreyos_User_Activities (ActivityBestLap NUMERIC, ActivityAvgLap NUMERIC, ActivityCurrentLap NUMERIC, ActivityAvgPace NUMERIC, ActivityPace NUMERIC, ActivityTopSpeed NUMERIC, ActivityAvgSpeed NUMERIC, ActivitySpeed NUMERIC, ActivityElevation NUMERIC, ActivityAltitude NUMERIC, ActivityMaxHeart NUMERIC, AvgActivityHeart NUMERIC, ActivityHeart NUMERIC, Activity_ID INTEGER PRIMARY KEY, Sport_ID NUMERIC, KreyosUserID NUMERIC, ActivityCalories NUMERIC, ActivitySteps NUMERIC, Coordinates TEXT, ActivityDistance NUMERIC, CreatedTime NUMERIC);

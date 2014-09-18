@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B99F9420-6FE3-40B8-A657-378B0A856322</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KreyosIosApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BF7E148A-446C-4D42-8CCC-930E1AEC08AD</key>
+		<string>https://bitbucket.org/charlesignatius/kreyosios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KreyosIosApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BF7E148A-446C-4D42-8CCC-930E1AEC08AD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/charlesignatius/kreyosios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BF7E148A-446C-4D42-8CCC-930E1AEC08AD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BF7E148A-446C-4D42-8CCC-930E1AEC08AD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KreyosiOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.kreyos.watch.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2.6</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.2.6</string>
+	<key>FacebookAppID</key>
+	<string>243672019116075</string>
+	<key>FacebookDisplayName</key>
+	<string>Kreyos Watch</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>TWITTER_CONSUMER_KEY</key>
+	<string>fMy2amMs4zmulkUTDxXcWg</string>
+	<key>TWITTER_CONSUMER_SECRET</key>
+	<string>KRu8kfh9dnbpbhj4l2dR8OVhx5V3jBNQOmyZZeHtB4</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BebasNeue.otf</string>
+		<string>Lato-Bol.ttf</string>
+		<string>Lato-Regular.ttf</string>
+		<string>League_Gothic.otf</string>
+		<string>ProximaNova-Regular.otf</string>
+		<string>ProximaNova-Light.otf</string>
+		<string>ProximaNova-Bold.otf</string>
+		<string>ProximaNova-Semibold.otf</string>
+		<string>ProximaNova-RegItalic.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+	</array>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

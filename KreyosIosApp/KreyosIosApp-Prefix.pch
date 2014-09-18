@@ -1,0 +1,31 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+//#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+// uncomment if not debug mode
+//#define DEBUG
+
+#ifdef DEBUG
+#   define KLog(fmt, ...) NSLog((@"\n%s\n" fmt), __PRETTY_FUNCTION__, ##__VA_ARGS__)
+#else
+#   define KLog(...)
+#endif
+
+
+//
+//  Logs regardless of debug setting.
+//
+#define KWLog(fmt, ...) NSLog((@"\n%s\n" fmt), __PRETTY_FUNCTION__, ##__VA_ARGS__)
