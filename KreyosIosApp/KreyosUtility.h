@@ -18,7 +18,7 @@
 #define BUILD_LOCAL                     0
 #define BUILD_WEB                       1
 #define BUILD_RELEASE                   2
-#define IOS_BUILD                       BUILD_WEB
+#define IOS_BUILD                       BUILD_RELEASE
 
 
 //~~~DEBUG SWITCHES GUIDE :)
@@ -30,6 +30,8 @@
 //#define STORY_IPHONE_5S               //~~~ENABLE STORYBOARD IN 5S ((╯°□°)╯︵ ┻━┻)
 //#define STORY_IPHONE_4S               //~~~ENABLE STORYBOARD IN 4S ((╯°□°)╯︵ ┻━┻)
 //#define ENABLE_SHOW_TUTORIAL          //~~~ALWAYS SHOW TUTORIAL    ((╯°□°)╯︵ ┻━┻)
+#define OFFLINE_BUILD                   //~~~LOAD OFFLINE STORY BOARD ( ¯\_(ツ)_/¯ )
+#elif IOS_BUILD == BUILD_RELEASE
 #define OFFLINE_BUILD                   //~~~LOAD OFFLINE STORY BOARD ( ¯\_(ツ)_/¯ )
 #endif
 

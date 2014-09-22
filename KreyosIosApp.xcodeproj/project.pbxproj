@@ -2230,7 +2230,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "ec72a6e9-ff1f-4422-95eb-43f7626d8dbe";
+				PROVISIONING_PROFILE = "83fe79bd-cfab-4dbe-abfa-f5913a9f25f4";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -2264,7 +2264,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PROVISIONING_PROFILE = "ec72a6e9-ff1f-4422-95eb-43f7626d8dbe";
+				PROVISIONING_PROFILE = "83fe79bd-cfab-4dbe-abfa-f5913a9f25f4";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2275,8 +2275,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Khristoffer Julio (G35MDL6GZC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khristoffer Julio (G35MDL6GZC)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kreyos, Inc. (HGW65U9A6N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kreyos, Inc. (HGW65U9A6N)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2296,7 +2296,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Kreyos;
-				PROVISIONING_PROFILE = "AC5AB415-849E-4E9A-836A-B564BAFC1242";
+				PROVISIONING_PROFILE = "83fe79bd-cfab-4dbe-abfa-f5913a9f25f4";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2307,8 +2307,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Khristoffer Julio (G35MDL6GZC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khristoffer Julio (G35MDL6GZC)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kreyos, Inc. (HGW65U9A6N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kreyos, Inc. (HGW65U9A6N)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2328,7 +2328,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Kreyos;
-				PROVISIONING_PROFILE = "AC5AB415-849E-4E9A-836A-B564BAFC1242";
+				PROVISIONING_PROFILE = "83fe79bd-cfab-4dbe-abfa-f5913a9f25f4";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

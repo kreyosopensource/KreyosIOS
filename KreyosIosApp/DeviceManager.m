@@ -7,9 +7,9 @@
 //
 
 #import "DeviceManager.h"
+#import "KreyosUtility.h"
 #import <sys/utsname.h>
 #import "UIDevice+Hardware.h"
-#import "KreyosUtility.h"
 
 @implementation DeviceManager
 
